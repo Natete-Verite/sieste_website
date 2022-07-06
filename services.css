@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url(plagetrois.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    height: 17vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.content ul li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+}   
+.content ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+} 
+.content ul li:hover{
+    border-bottom: 3px solid #e3b104;
+    transition: 0.5s;
+    cursor: pointer;
+}
