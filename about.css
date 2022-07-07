@@ -40,7 +40,7 @@
     text-decoration: none;
 } 
 .content ul li:hover{
-    border-bottom: 3px solid #e3b104;
+    border-bottom: 3px solid ;
     transition: 0.5s;
     cursor: pointer;
 }
